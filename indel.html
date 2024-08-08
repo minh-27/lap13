@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biểu mẫu khảo sát freeCodeCamp</title>
+  <link rel="stylesheet" href="style.css">
+  <link type="text/css" rel="stylesheet" charset="UTF-8"
+    href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.26tY-h6gH9w.L.W.O/am=Phg/d=0/rs=AN8SPfor9mOnrVSOJ5Dp4JexmA5DU8Siog/m=el_main_css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Biểu mẫu khảo sát freeCodeCamp</font>
+        </font>
+      </h1>
+      <p id="description" class="description text-center">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">
+            Cảm ơn bạn đã dành thời gian giúp chúng tôi cải thiện nền tảng
+          </font>
+        </font>
+      </p>
+    </header>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Tên</font>
+          </font>
+        </label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Nhập tên của bạn" required="">
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">E-mail</font>
+          </font>
+        </label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Nhập email của bạn" required="">
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Tuổi</font>
+          </font><span class="clue">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">(không bắt buộc)</font>
+            </font>
+          </span>
+        </label>
+        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Tuổi">
+      </div>
+      <div class="form-group">
+        <p>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Lựa chọn nào mô tả tốt nhất vai trò hiện tại của bạn?</font>
+          </font>
+        </p>
+        <select id="dropdown" name="role" class="form-control" required="">
+          <option disabled="" selected="" value="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Chọn vai trò hiện tại</font>
+            </font>
+          </option>
+          <option value="student">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Học sinh</font>
+            </font>
+          </option>
+          <option value="job">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Công việc toàn thời gian</font>
+            </font>
+          </option>
+          <option value="learner">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Người học toàn thời gian</font>
+            </font>
+          </option>
+          <option value="preferNo">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Không thích nói</font>
+            </font>
+          </option>
+          <option value="other">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Khác</font>
+            </font>
+          </option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <p>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Bạn có giới thiệu freeCodeCamp cho bạn bè không?</font>
+          </font>
+        </p>
+        <label>
+          <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Chắc chắn</font>
+          </font>
+        </label>
+        <label>
+          <input name="user-recommend" value="maybe" type="radio" class="input-radio">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Có lẽ</font>
+          </font>
+        </label>
+
+        <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Không chắc</font>
+          </font>
+        </label>
+      </div>
+
+      <div class="form-group">
+        <p>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Tính năng yêu thích của bạn trên freeCodeCamp là gì?</font>
+          </font>
+        </p>
+        <select id="most-like" name="mostLike" class="form-control" required="">
+          <option disabled="" selected="" value="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Chọn một tùy chọn</font>
+            </font>
+          </option>
+          <option value="challenges">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Thách thức</font>
+            </font>
+          </option>
+          <option value="projects">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Dự án</font>
+            </font>
+          </option>
+          <option value="community">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Cộng đồng</font>
+            </font>
+          </option>
+          <option value="openSource">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Mã nguồn mở</font>
+            </font>
+          </option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <p>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">
+              Bạn muốn cải thiện điều gì?
+            </font>
+          </font><span class="clue">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">(Chọn tất cả những mục phù hợp)</font>
+            </font>
+          </span>
+        </p>
+
+        <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Dự án Front-end</font>
+          </font>
+        </label>
+        <label>
+          <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Các dự án Back-end</font>
+          </font>
+        </label>
+        <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Hình ảnh hóa dữ liệu</font>
+          </font>
+        </label>
+        <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Thách thức</font>
+          </font>
+        </label>
+        <label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Cộng đồng nguồn mở</font>
+          </font>
+        </label>
+        <label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Phòng trợ giúp Gitter</font>
+          </font>
+        </label>
+        <label><input name="prefer" value="videos" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Video</font>
+          </font>
+        </label>
+        <label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Gặp gỡ thành phố</font>
+          </font>
+        </label>
+        <label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Wiki</font>
+          </font>
+        </label>
+        <label><input name="prefer" value="forum" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Diễn đàn</font>
+          </font>
+        </label>
+        <label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Các khóa học bổ sung</font>
+          </font>
+        </label>
+      </div>
+
+      <div class="form-group">
+        <p>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Bạn có ý kiến ​​hay đề xuất nào không?</font>
+          </font>
+        </p>
+        <textarea id="comments" class="input-textarea" name="comment"
+          placeholder="Nhập bình luận của bạn vào đây..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">
+              Nộp
+            </font>
+          </font>
+        </button>
+      </div>
+    </form>
+  </div>
+  <div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate"
+    style="border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: 'Google Sans', Arial, sans-serif;"
+    data-id="">
+    <div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd">
+      <div class=" VIpgJd-yAWNEb-hvhgNd-l4eHX-i3jM8c"><img
+          src="https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg" width="24" height="24" alt=""></div>
+      <div class=" VIpgJd-yAWNEb-hvhgNd-k77Iif-i3jM8c">
+        <div class="VIpgJd-yAWNEb-hvhgNd-IuizWc" dir="ltr">Original text</div>
+        <div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div>
+      </div>
+      <div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr">
+        <div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr">
+          <div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">Rate this translation</div>
+          <div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">Your feedback will be used to help improve Google Translate</div>
+        </div>
+        <div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button"
+            class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Good translation" aria-label="Good translation"
+            aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24" viewBox="0 0 24 24"
+                focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                <path
+                  d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z">
+                </path>
+              </svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24" viewBox="0 0 24 24"
+                focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                <path
+                  d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z">
+                </path>
+              </svg></span></button><button id="goog-gt-thumbDownButton" type="button"
+            class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Poor translation" aria-label="Poor translation"
+            aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24" viewBox="0 0 24 24"
+                focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                <path
+                  d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z">
+                </path>
+              </svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24" viewBox="0 0 24 24"
+                focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                <path
+                  d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z">
+                </path>
+              </svg></span></button></div>
+      </div>
+      <div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce">
+        <form id="goog-gt-votingForm" action="//translate.googleapis.com/translate_voting?client=te_lib" method="post"
+          target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl"
+            id="goog-gt-votingInputSrcLang"><input type="text" name="tl" id="goog-gt-votingInputTrgLang"><input
+            type="text" name="query" id="goog-gt-votingInputSrcText"><input type="text" name="gtrans"
+            id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote"></form><iframe
+          name="votingFrame" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+
+</html>
